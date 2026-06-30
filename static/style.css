@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+.stats {
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: #f0f0f0;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.label {
+    font-size: 13px;
+    color: #777;
+}
+
+.value {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+#expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#expense-form input,
+#expense-form select,
+#expense-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+#expense-form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.filter-btn {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.filter-btn.active {
+    background: #333;
+    color: white;
+    border-color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 8px;
+}
+
+td {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #d33;
+    cursor: pointer;
+    font-size: 14px;
+}
